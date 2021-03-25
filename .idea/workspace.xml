@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eef7ab70-0200-4313-8994-861c98167acc" name="Default Changelist" comment="cd">
-      <change beforePath="$PROJECT_DIR$/.idea/S.T.A.R.S.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/S.T.A.R.S.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/STARS_App/my_app/lib/Home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/Home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/STARS_App/my_app/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

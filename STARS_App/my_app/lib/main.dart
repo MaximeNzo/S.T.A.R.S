@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:STARS/Home.dart';
+import 'SignIN.dart';
 
 void main() {
   runApp(MyApp());
