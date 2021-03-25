@@ -1,13 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="eef7ab70-0200-4313-8994-861c98167acc" name="Default Changelist" comment="cd">
-      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/STARS_App/my_app/pubspec.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STARS_App/my_app/android/Images/federico-beccari-L8126OwlroY-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/SignIN.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/STARS_App/my_app/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,6 +55,11 @@
     <property name="settings.editor.selected.configurable" value="dart.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/STARS_App/my_app/android/Images" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -39,11 +73,26 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="406" y="177" key="SettingsEditor" timestamp="1616679808576">
       <screen x="0" y="25" width="1792" height="1015" />
     </state>
     <state x="406" y="177" key="SettingsEditor/0.25.1792.1015@0.25.1792.1015" timestamp="1616679808576" />
+    <state x="337" y="155" width="615" height="735" key="find.popup" timestamp="1616681670726">
+      <screen x="0" y="25" width="1792" height="1021" />
+    </state>
+    <state x="337" y="155" width="615" height="735" key="find.popup/0.25.1792.1021@0.25.1792.1021" timestamp="1616681670726" />
     <state x="561" y="265" key="run.anything.popup" timestamp="1616679992642">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
