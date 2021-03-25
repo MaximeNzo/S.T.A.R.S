@@ -19,23 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eef7ab70-0200-4313-8994-861c98167acc" name="Default Changelist" comment="cd">
-      <change afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/Pages/Homepage.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/Pages/MyAccountPage.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/Pages/MyInvestments.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/SideBar/Menu_Item.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/SideBar/SideBar.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/SideBar/sidebar_layout.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/bloc.navigation_bloc/navigation_bloc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/lib/Home.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/lib/SignIN.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/STARS_App/my_app/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/STARS_App/my_app/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/STARS_App/my_app/test/widget_test.dart" afterDir="false" />
-    </list>
+    <list default="true" id="eef7ab70-0200-4313-8994-861c98167acc" name="Default Changelist" comment="cd" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
