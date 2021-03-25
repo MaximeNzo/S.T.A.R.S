@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eef7ab70-0200-4313-8994-861c98167acc" name="Default Changelist" comment="cd">
-      <change afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/Home.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/S.T.A.R.S.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/S.T.A.R.S.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/lib/Home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/Home.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,12 +81,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="195" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616682848200">
-      <screen x="0" y="25" width="1792" height="1021" />
+    <state x="195" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616683217877">
+      <screen x="0" y="25" width="1792" height="1026" />
     </state>
     <state x="195" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1021@0.25.1792.1021" timestamp="1616682848200" />
+    <state x="195" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1026@0.25.1792.1026" timestamp="1616683217877" />
     <state x="100" y="125" width="1261" height="796" key="AVDManager" timestamp="1616683038959">
       <screen x="0" y="25" width="1792" height="1024" />
     </state>
