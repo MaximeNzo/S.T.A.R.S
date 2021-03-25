@@ -20,10 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eef7ab70-0200-4313-8994-861c98167acc" name="Default Changelist" comment="cd">
+      <change afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/Pages/Homepage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/Pages/MyAccountPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/Pages/MyInvestments.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/SideBar/Menu_Item.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/SideBar/SideBar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/SideBar/sidebar_layout.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/bloc.navigation_bloc/navigation_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/lib/Home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/Home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/lib/Home.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/lib/SignIN.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/STARS_App/my_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/STARS_App/my_app/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/STARS_App/my_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/STARS_App/my_app/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/STARS_App/my_app/test/widget_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +67,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/STARS_App/my_app/lib/SideBar" />
       <recent name="$PROJECT_DIR$/STARS_App/my_app/android/Images" />
     </key>
   </component>
@@ -85,9 +97,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="195" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616683217877">
-      <screen x="0" y="25" width="1792" height="1026" />
+    <state x="133" y="185" width="1062" height="675" key="#Intentions" timestamp="1616709755855">
+      <screen x="0" y="25" width="1792" height="1021" />
     </state>
+    <state x="133" y="185" width="1062" height="675" key="#Intentions/0.25.1792.1021@0.25.1792.1021" timestamp="1616709755855" />
+    <state x="-1711" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616695565629">
+      <screen x="-1920" y="25" width="1920" height="1055" />
+    </state>
+    <state x="-1711" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1019/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1616695565629" />
     <state x="195" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1021@0.25.1792.1021" timestamp="1616682848200" />
     <state x="195" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1026@0.25.1792.1026" timestamp="1616683217877" />
     <state x="100" y="125" width="1261" height="796" key="AVDManager" timestamp="1616683038959">
@@ -103,6 +120,10 @@
       <screen x="0" y="25" width="1792" height="1021" />
     </state>
     <state x="337" y="155" width="615" height="735" key="find.popup/0.25.1792.1021@0.25.1792.1021" timestamp="1616681670726" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1616703497875">
+      <screen x="0" y="25" width="1792" height="1021" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.25.1792.1021@0.25.1792.1021" timestamp="1616703497875" />
     <state x="561" y="265" key="run.anything.popup" timestamp="1616679992642">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
