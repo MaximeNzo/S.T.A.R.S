@@ -48,6 +48,7 @@ class _SideBarState extends State<SideBar> with SingleTickerProviderStateMixin<S
     }
   }
 
+
   @override
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
@@ -179,6 +180,7 @@ class _SideBarState extends State<SideBar> with SingleTickerProviderStateMixin<S
     );
   }
 }
+
 class CustomMenuClipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {
