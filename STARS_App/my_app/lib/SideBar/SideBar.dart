@@ -82,7 +82,7 @@ class _SideBarState extends State<SideBar> with SingleTickerProviderStateMixin<S
                           subtitle: Text(
                             "arnauddefruit@yahoo.fr",
                             style: TextStyle(
-                              color: Colors.deepPurple,
+                              color: Colors.purpleAccent,
                               fontSize: 18,
                             ),
                           ),
@@ -179,7 +179,6 @@ class _SideBarState extends State<SideBar> with SingleTickerProviderStateMixin<S
     );
   }
 }
-
 class CustomMenuClipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {
