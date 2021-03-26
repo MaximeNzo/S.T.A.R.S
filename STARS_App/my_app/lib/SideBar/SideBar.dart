@@ -56,121 +56,123 @@ class _SideBarState extends State<SideBar> with SingleTickerProviderStateMixin<S
       initialData: false,
       stream: isSidebarOpenedStream,
       builder: (context, isSideBarOpenedAsync) {
-        return AnimatedPositioned(
-          duration: _animationDuration,
-          top: 0,
-          bottom: 0,
-          left: isSideBarOpenedAsync.data ? 0 : -screenWidth,
-          right: isSideBarOpenedAsync.data ? 0 : screenWidth - 45,
-          child: Row(
-            children: <Widget>[
-              Expanded(
-                child: Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 20),
-                  color: Colors.deepPurple,
-                  child: Column(
-                    children: <Widget>[
-                      SizedBox(
-                        height: 100,
-                      ),
-                      ListTile(
-                        title: Text(
-                          "Arnaud",
-                          style: TextStyle(color: Colors.purpleAccent, fontSize: 30, fontWeight: FontWeight.w800),
+        return Material(
+          child: AnimatedPositioned(
+            duration: _animationDuration,
+            top: 0,
+            bottom: 0,
+            left: isSideBarOpenedAsync.data ? 0 : -screenWidth,
+            right: isSideBarOpenedAsync.data ? 0 : screenWidth - 45,
+            child: Row(
+              children: <Widget>[
+                Expanded(
+                  child: Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 20),
+                    color: Colors.deepPurple,
+                    child: Column(
+                      children: <Widget>[
+                        SizedBox(
+                          height: 100,
                         ),
-                        subtitle: Text(
-                          "arnauddefruit@yahoo.fr",
-                          style: TextStyle(
-                            color: Colors.deepPurple,
-                            fontSize: 18,
+                        ListTile(
+                          title: Text(
+                            "Arnaud",
+                            style: TextStyle(color: Colors.purpleAccent, fontSize: 30, fontWeight: FontWeight.w800),
+                          ),
+                          subtitle: Text(
+                            "arnauddefruit@yahoo.fr",
+                            style: TextStyle(
+                              color: Colors.deepPurple,
+                              fontSize: 18,
+                            ),
+                          ),
+                          leading: CircleAvatar(
+                            child: Icon(
+                              Icons.perm_identity,
+                              color: Colors.purpleAccent,
+                            ),
+                            radius: 40,
                           ),
                         ),
-                        leading: CircleAvatar(
-                          child: Icon(
-                            Icons.perm_identity,
-                            color: Colors.purpleAccent,
-                          ),
-                          radius: 40,
+                        Divider(
+                          height: 64,
+                          thickness: 0.5,
+                          color: Colors.purpleAccent,
+                          indent: 32,
+                          endIndent: 32,
                         ),
-                      ),
-                      Divider(
-                        height: 64,
-                        thickness: 0.5,
-                        color: Colors.purpleAccent,
-                        indent: 32,
-                        endIndent: 32,
-                      ),
-                      MenuItem(
-                        icon: Icons.home,
-                        title: "Home",
-                        onTap: () {
-                          onIconPressed();
-                          BlocProvider.of<NavigationBloc>(context).add(NavigationEvents.HomePageClickedEvent);
-                        },
-                      ),
-                      MenuItem(
-                        icon: Icons.person,
-                        title: "My Account",
-                        onTap: () {
-                          onIconPressed();
-                          BlocProvider.of<NavigationBloc>(context).add(NavigationEvents.MyAccountClickedEvent);
-                        },
-                      ),
-                      MenuItem(
-                        icon: Icons.shopping_basket,
-                        title: "My Investments",
-                        onTap: () {
-                          onIconPressed();
-                          BlocProvider.of<NavigationBloc>(context).add(NavigationEvents.MyInvestmentsClickedEvent);
-                        },
-                      ),
-                      MenuItem(
-                        icon: Icons.card_giftcard,
-                        title: "Wishlist",
-                      ),
-                      Divider(
-                        height: 64,
-                        thickness: 0.5,
-                        color: Colors.white.withOpacity(0.3),
-                        indent: 32,
-                        endIndent: 32,
-                      ),
-                      MenuItem(
-                        icon: Icons.settings,
-                        title: "Settings",
-                      ),
-                      MenuItem(
-                        icon: Icons.exit_to_app,
-                        title: "Logout",
-                      ),
-                    ],
+                        MenuItem(
+                          icon: Icons.home,
+                          title: "Home",
+                          onTap: () {
+                            onIconPressed();
+                            BlocProvider.of<NavigationBloc>(context).add(NavigationEvents.HomePageClickedEvent);
+                          },
+                        ),
+                        MenuItem(
+                          icon: Icons.person,
+                          title: "My Account",
+                          onTap: () {
+                            onIconPressed();
+                            BlocProvider.of<NavigationBloc>(context).add(NavigationEvents.MyAccountClickedEvent);
+                          },
+                        ),
+                        MenuItem(
+                          icon: Icons.shopping_basket,
+                          title: "My Investments",
+                          onTap: () {
+                            onIconPressed();
+                            BlocProvider.of<NavigationBloc>(context).add(NavigationEvents.MyInvestmentsClickedEvent);
+                          },
+                        ),
+                        MenuItem(
+                          icon: Icons.card_giftcard,
+                          title: "Wishlist",
+                        ),
+                        Divider(
+                          height: 64,
+                          thickness: 0.5,
+                          color: Colors.white.withOpacity(0.3),
+                          indent: 32,
+                          endIndent: 32,
+                        ),
+                        MenuItem(
+                          icon: Icons.settings,
+                          title: "Settings",
+                        ),
+                        MenuItem(
+                          icon: Icons.exit_to_app,
+                          title: "Logout",
+                        ),
+                      ],
+                    ),
                   ),
                 ),
-              ),
-              Align(
-                alignment: Alignment(0, -0.9),
-                child: GestureDetector(
-                  onTap: () {
-                    onIconPressed();
-                  },
-                  child: ClipPath(
-                    clipper: CustomMenuClipper(),
-                    child: Container(
-                      width: 35,
-                      height: 110,
-                      color: Colors.deepPurple,
-                      alignment: Alignment.centerLeft,
-                      child: AnimatedIcon(
-                        progress: _animationController.view,
-                        icon: AnimatedIcons.menu_close,
-                        color: Colors.purpleAccent,
-                        size: 25,
+                Align(
+                  alignment: Alignment(0, -0.9),
+                  child: GestureDetector(
+                    onTap: () {
+                      onIconPressed();
+                    },
+                    child: ClipPath(
+                      clipper: CustomMenuClipper(),
+                      child: Container(
+                        width: 35,
+                        height: 110,
+                        color: Colors.deepPurple,
+                        alignment: Alignment.centerLeft,
+                        child: AnimatedIcon(
+                          progress: _animationController.view,
+                          icon: AnimatedIcons.menu_close,
+                          color: Colors.purpleAccent,
+                          size: 25,
+                        ),
                       ),
                     ),
                   ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         );
       },
