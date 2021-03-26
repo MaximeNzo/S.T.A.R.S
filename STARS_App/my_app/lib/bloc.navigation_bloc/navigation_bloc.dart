@@ -1,7 +1,7 @@
 import 'package:STARS/Pages/MyAccountPage.dart';
 import 'package:STARS/Pages/MyInvestments.dart';
 import 'package:bloc/bloc.dart';
-import '../pages/homepage.dart';
+import '../Pages/Homepage.dart';
 
 enum NavigationEvents {
   HomePageClickedEvent,
@@ -12,6 +12,7 @@ enum NavigationEvents {
 abstract class NavigationStates {}
 
 class NavigationBloc extends Bloc<NavigationEvents, NavigationStates> {
+  NavigationBloc() : super(null);
 
 
   NavigationStates get initialState => HomePage();
