@@ -13,6 +13,7 @@ abstract class NavigationStates {}
 
 class NavigationBloc extends Bloc<NavigationEvents, NavigationStates> {
 
+
   NavigationStates get initialState => HomePage();
 
   @override

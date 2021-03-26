@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eef7ab70-0200-4313-8994-861c98167acc" name="Default Changelist" comment="cd" />
+    <list default="true" id="eef7ab70-0200-4313-8994-861c98167acc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/lib/bloc.navigation_bloc/navigation_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/bloc.navigation_bloc/navigation_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/STARS_App/my_app/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,15 +85,20 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="457" y="205" key="#Inspections" timestamp="1616710897020">
+      <screen x="0" y="25" width="1792" height="1019" />
+    </state>
+    <state x="457" y="205" key="#Inspections/0.25.1792.1019@0.25.1792.1019" timestamp="1616710897020" />
     <state x="133" y="185" width="1062" height="675" key="#Intentions" timestamp="1616709755855">
       <screen x="0" y="25" width="1792" height="1021" />
     </state>
     <state x="133" y="185" width="1062" height="675" key="#Intentions/0.25.1792.1021@0.25.1792.1021" timestamp="1616709755855" />
-    <state x="-1711" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616695565629">
-      <screen x="-1920" y="25" width="1920" height="1055" />
+    <state x="195" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616711295451">
+      <screen x="0" y="25" width="1792" height="1021" />
     </state>
     <state x="-1711" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1019/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1616695565629" />
-    <state x="195" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1021@0.25.1792.1021" timestamp="1616682848200" />
+    <state x="195" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1019@0.25.1792.1019" timestamp="1616710805201" />
+    <state x="195" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1021@0.25.1792.1021" timestamp="1616711295451" />
     <state x="195" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1026@0.25.1792.1026" timestamp="1616683217877" />
     <state x="100" y="125" width="1261" height="796" key="AVDManager" timestamp="1616683038959">
       <screen x="0" y="25" width="1792" height="1024" />
