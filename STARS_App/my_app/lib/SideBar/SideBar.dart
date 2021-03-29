@@ -98,7 +98,7 @@ class _SideBarState extends State<SideBar>
                             ),
                             radius: 40,
                           ),
-                        ),
+                        );
                         Divider(
                           height: 64,
                           thickness: 0.5,
