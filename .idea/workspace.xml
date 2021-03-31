@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eef7ab70-0200-4313-8994-861c98167acc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/lib/SideBar/SideBar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/STARS_App/my_app/lib/SideBar/SideBar.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STARS_App/my_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/STARS_App/my_app/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,5 +120,16 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="561" y="265" key="run.anything.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1616679992642" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/STARS_App/my_app/lib/SideBar/SideBar.dart</url>
+          <line>78</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
